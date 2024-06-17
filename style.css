@@ -15,7 +15,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
 }
 
 html {
@@ -26,6 +26,7 @@ body {
   background: #feffff;
   color: var(--clr-secondary);
   overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .section {
@@ -141,7 +142,7 @@ h2 {
 
 p {
   color: #000000;
-  opacity: 50%;
+  opacity: 90%;
 }
 .box {
   display: flex;
@@ -225,19 +226,101 @@ p {
   align-items: center;
   justify-content: center;
 }
-button{
+button {
   display: flex;
- align-self: start;
- width: 140px;
- height: 52px;
- align-items: center;
- padding: 17px;
- background-color: rgb(194, 0, 0);
- border: 1px ;
- color: #fff;
- gap: 15px;
- text-decoration: none;
+  align-self: start;
+  width: 140px;
+  height: 52px;
+  align-items: center;
+  padding: 17px;
+  background-color: rgb(194, 0, 0);
+  border: 1px;
+  color: #fff;
+  gap: 15px;
+  text-decoration: none;
 }
-button:hover{
+button:hover {
   cursor: pointer;
+}
+.section3 {
+  display: flex;
+  /* align-items: center; */
+  margin: 70px;
+  justify-content: center;
+}
+.section3:hover {
+  cursor: pointer;
+}
+.section4 {
+  background-color: rgb(167, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  padding: 20px;
+  padding-bottom: 104px;
+  .beli {
+    color: white;
+  }
+  padding-left: 150px;
+}
+input {
+  /* background-color: white; */
+  display: flex;
+  padding: 20px;
+  width: 733px;
+  height: 50px;
+}
+.cont52 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  width: 2800px;
+  align-self: center;
+  gap: 552px;
+  margin-left: 550px;
+}
+.gc52 {
+  display: flex;
+  justify-content: center;
+  /* max-width: 30px; */
+  flex-direction: column;
+  width:400px;
+  text-align: left;
+  /* gap: 20px; */
+
+}
+.fimg{
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+}
+.porno{
+  display: flex;
+  margin-right: 170px;
+  /* padding: 25px; */
+  margin-top: 30px ;
+}
+.chmo{
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+}
+.lox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+}
+.lox:hover{
+  cursor: pointer;
+}
+.peshka{
+  display: flex;
+  justify-content: center;
+  margin-top:70px ;
 }
